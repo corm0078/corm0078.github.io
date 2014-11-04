@@ -1,0 +1,84 @@
+html {font-size: 1em;}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
+
+
+body {
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #333;
+}
+
+p {margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {  
+  font-family: 'oswald', sans-serif;    
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.5;
+  color: #4D4D4D;    
+}
+
+.yotta {
+    font-size: 5.609em; 
+}
+
+.zetta {
+    font-size: 4.208em; 
+}
+
+h1, .exa {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+
+h2, .peta {
+    font-size: 2.369em;
+}
+
+h3, .tera {
+    font-size: 1.777em;
+}
+
+h4, .giga {
+    font-size: 1.333em;
+}
+
+h5, .mega{
+    font-size: 1em;
+}
+
+h6, .kilo{
+    font-size: 0.75em;
+}
+
+h7, .milli {
+    font-size: 0.563em;   
+}
+
+small, .font_small {
+    font-size: 0.75em;
+}

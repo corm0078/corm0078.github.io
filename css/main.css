@@ -1,3 +1,27 @@
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
+html {
+    box-sizing: border-box;
+    -moz-text-sized-adjust: 100%;
+    -ms-text-sized-adjust: 100%;
+    -webkit-text-sized-adjust: 100%;
+    text-sized-adjust: 100%;
+
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /*
 
 colours 
@@ -9,38 +33,64 @@ Bleu: #AFE5F9
 Red: #F16370
 Orange: #F9B175
 Yellow: #FEF6A3
+grey: #4D4D4D
 
 */
 
+p {
+  font-family: "lato", sans-serif;
+  font-weight: 300; 
+  font-size: 17px;
+  line-height: 20px;    
+  color: #4D4D4D;
+}
+
 img {
     width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+ background-color:#fff;
+ position: fixed;
+ width: 100%;    
+ height: 7rem; 
+ z-index: 1000;    
 }
 
 .logo{
-   width: 8rem;
-   padding-left: 1.5rem;    
+   position: absolute;
+   width: 7rem; 
+   top: -0.02rem;    
+}
+.line-seperator{
+  height:2px;
+  border-bottom:2px solid #4D4D4D;  
 }
 
+
 #toggle {
+  position: absolute;    
   display: block;
   width: 28px;
   height: 30px;
-  margin: 30px auto 10px;
+  margin: 20px 80% 10%;   
 }
 
 #toggle span:after,
 #toggle span:before {
   content: "";
   position: absolute;
-  left: 0;
-  top: -9px;
+  top: -9px;  
 }
+
 #toggle span:after{
-  top: 9px;
+  top: 9px;   
 }
 #toggle span {
   position: relative;
-  display: block;
+  display: block;    
 }
 
 #toggle span,
@@ -48,15 +98,16 @@ img {
 #toggle span:before {
   width: 100%;
   height: 5px;
-  background-color: #888;
+  background-color: #BE6696;
   transition: all 0.3s;
   backface-visibility: hidden;
 }
 
-/* on activation */
+/* once pushed */
 #toggle.on span {
-  background-color: transparent;
+  background-color: transparent;      
 }
+
 #toggle.on span:before {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -69,20 +120,23 @@ img {
 
 /* menu appearance*/
 #menu {
-  position: relative;
+  position: fixed;
   color: #999;
-  width: 200px;
+  width: 100%;
   padding: 10px;
-  margin: auto;
-  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-  text-align: center;
-  border-radius: 4px;
-  background: white;
+  font-weight: 300; 
+  font-size: 2rem;
+  line-height: 4rem;    
+  text-align: right;
+  background: #fff;
   opacity: 0; 
   transition: opacity .4s;
+  top: 3.5em;    
+  bottom: 0;
 }
+/*
 #menu:after {
-  position: absolute;
+  position: absolute;    
   top: -15px;
   left: 95px;
   content: "";
@@ -90,21 +144,48 @@ img {
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 20px solid white;
-}
-ul, li, li a {
+}*/
+#menu ul, 
+#menu li, 
+#menu li a {
   list-style: none;
   display: block;
   margin: 0;
   padding: 0;
 }
-li a {
+#menu li a {
   padding: 5px;
-  color: #888;
+  color: #4D4D4D;
+  font-size: 1.8rem;
+  font-weight: 300;    
   text-decoration: none;
-  transition: all .2s;
+  transition: all .2s; 
+  padding-right: 8%;    
 }
-li a:hover,
-li a:focus {
-  background: #1ABC9C;
-  color: #fff;
+#menu li a:hover,
+#menu li a:focus {
+  color: #BE6696;
+}
+
+.martine{  
+  height: 100vh;    
+  background-image: url('http://placehold.it/550x550');
+  background-color:  transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contain{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;     
+}
+
+.description{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  padding: 9px; 
+  padding-top: 180px;      
 }
