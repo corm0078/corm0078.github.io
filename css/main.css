@@ -51,7 +51,7 @@ img {
     padding: 0;
 }
 
-nav{
+.background{
  background-color:#fff;
  position: fixed;
  width: 100%;    
@@ -75,7 +75,7 @@ nav{
   display: block;
   width: 28px;
   height: 30px;
-  margin: 20px 80% 10%;   
+  margin: 30px 80% 10%;   
 }
 
 #toggle span:after,
@@ -132,7 +132,7 @@ nav{
   color: #999;
   width: 100%;
   padding: 10px;
-  font-weight: 300; 
+  font-weight: 200; 
   font-size: 2rem;
   line-height: 4rem;    
   text-align: right;
@@ -161,11 +161,11 @@ nav{
   margin: 0;
   padding: 0;
 }
+
 #menu li a {
   padding: 5px;
   color: #4D4D4D;
-  font-size: 1.8rem;
-  font-weight: 300;    
+  font-size: 1.8rem;    
   text-decoration: none;
   transition: all .2s; 
   padding-right: 8%;    
@@ -179,7 +179,7 @@ nav{
  display: none; 
 }
 
-@media only screen and (min-width: 37em) {
+@media only screen and (min-width: 45em) {
   
   .small-nav{
    display: none;
@@ -187,20 +187,40 @@ nav{
   
   .large-nav{
    display: inline-block;
-   text-decoration: none;  
+   text-decoration: none;
+   float: right;
   }
   
   .large-nav a{
-   text-decoration: none;  
+   text-decoration: none;
+   color: #4D4D4D;  
   }
   
   .large-nav li{ 
    display: inline-block;
-   margin: 1rem; 
+   margin: 0.5rem;
+   margin-left: 1.5rem;
+   font-size: 1.5rem;
+   line-height: 4rem;    
   }
-
+  
+  .large-nav li a:hover,
+  .large-nav li a:focus {
+  color: #BE6696;
+  border-bottom: 2px solid;  
+  }
 }
 
+@media only screen and (min-width: 70em) {
+  .stop{
+    width: 90%;
+  }
+  
+  .stop-logo{
+   left: 10%;    
+  }
+}
+ 
 .header{  
   height: 100vh;    
   background-image: url('http://placehold.it/550x550');
@@ -220,12 +240,29 @@ nav{
   position: absolute;
   left: 50%;
   text-align: center;
-  padding-top: 180px; 
+  padding-top: 60%; 
   width: 90%;
   max-width: 35em;
+  color: 
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 35em) {
+  
+  .description{
+   font-size: 1.5rem;
+   width: 70%;
+  }
+}
+
+@media only screen and (min-width: 70em) {
+  
+  .description{
+   font-size: 2rem;
+   width: 60%;  
+  }
 }
