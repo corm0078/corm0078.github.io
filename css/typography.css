@@ -37,9 +37,9 @@ p {margin-bottom: 1.3em;}
 h1, h2, h3, h4 {  
   font-family: 'oswald', sans-serif;    
   margin: 1.414em 0 0.5em;
-  font-weight: inherit;
+  font-weight: 100;
   line-height: 1.5;
-  color: #4D4D4D;    
+  color: #4D4D4D;
 }
 
 .yotta {
