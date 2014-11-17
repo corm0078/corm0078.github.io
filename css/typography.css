@@ -24,21 +24,27 @@ html {font-size: 1em;}
 
 }
 
-html {font-size: 1em;}
+html {
+    font-size: 1em;
+}
 
 body {
   background-color: white;
+  font-size: 14px;
+  line-height: 23px;    
   font-family: "open sans", sans-serif;
   font-weight: 400;
   line-height: 1.45;
   color: #333;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+  margin-bottom: 1.3em;
+}
 
 h1, h2, h3, h4 {
   font-family: "oswald", sans-serif;
-  margin: 1.414em 0 0.5em;
+  margin: 1.3em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
 }
@@ -105,4 +111,10 @@ h7, .milli {
 
 small, .font_small {
     font-size: 0.75em;
+}
+
+
+.center{
+    
+ text-align: center;   
 }

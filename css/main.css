@@ -42,13 +42,6 @@ grey: #4D4D4D
 
 */
 
-p {
-  font-weight: 300; 
-  font-size: 17px;
-  line-height: 20px;    
-  color: #4D4D4D;
-}
-
 img {
     width: 100%;
     margin: 0;
@@ -251,11 +244,15 @@ img {
    left: 10%;    
   }
 }
+
+.center{
+ text-align: center;   
+}
  
 .header{  
   height: 100vh;
   width: 100%;
-  background-image: url("http://placekitten.com/1150/1050");
+  background-image: url("http://placehold.it/1150x1050");
   background-color:  transparent;
   background-position: center center;
   background-repeat: no-repeat;
@@ -417,11 +414,13 @@ img {
   min-height: 60rem;  
 }
 
-.item {
-
-}
-
 .section-photo {
   padding-top: 2rem; 
+}
+
+.icon{
+ width: 20%;
+ text-align: center;
+ padding-top: 3rem;    
 }
 
