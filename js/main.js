@@ -1,5 +1,6 @@
 var theToggle = document.getElementById('toggle');
 var menu = document.getElementById('menu');
+var menuitem = document.getElementsByClassName('menuitem');
 
 // based on Todd Motto functions
 // http://toddmotto.com/labs/reusable-js/
@@ -45,9 +46,6 @@ theToggle.onclick = function() {
 menu.onclick = function() {
   removeClass(theToggle, 'on');
 }
-
-
-
 
 
 this.$el.on( 'mouseenter.hoverdir, mouseleave.hoverdir', function( event ) {
