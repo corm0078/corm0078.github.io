@@ -270,10 +270,9 @@ img {
 
 .description{
   position: absolute;
-  left: 50%;
   text-align: center;
   padding-top: 90%; 
-  width: 100%;
+  width: 80%;
   max-width: 35em;
   color: 
   -webkit-transform: translateX(-50%);
