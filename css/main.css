@@ -10,16 +10,21 @@ html {
     -ms-text-sized-adjust: 100%;
     -webkit-text-sized-adjust: 100%;
     text-sized-adjust: 100%;
+    margin: 0;
+    padding: 0;
 
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 /*
@@ -250,8 +255,8 @@ img {
  
 .header{  
   height: 100vh;
-    width: 100%;
-  background-image: url('http://placehold.it/550x550');
+  width: 100%;
+  background-image: url("http://placekitten.com/1150/1050");
   background-color:  transparent;
   background-position: center center;
   background-repeat: no-repeat;
@@ -339,7 +344,6 @@ img {
    display: block;
    cursor: pointer;
    line-height: 33px;
-   border-radius: 0.3rem;
    text-align: center;
    position: relative;
    margin: 0;
