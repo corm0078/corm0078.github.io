@@ -269,17 +269,12 @@ img {
 }
 
 .description{
-  position: absolute;
   text-align: center;
   padding-top: 90%; 
   width: 80%;
   max-width: 35em;
-  color: 
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
+    margin: 0 auto;
+
 }
 
 .arrow{
