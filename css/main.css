@@ -43,7 +43,6 @@ grey: #4D4D4D
 */
 
 p {
-  font-family: "lato", sans-serif;
   font-weight: 300; 
   font-size: 17px;
   line-height: 20px;    
@@ -419,7 +418,7 @@ img {
 }
 
 .item {
-  padding-bottom: 2rem;
+
 }
 
 .section-photo {
