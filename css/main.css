@@ -51,6 +51,12 @@ img {
     padding: 0;
 }
 
+.flex-img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .background{
  background-color:#fff;
  position: fixed;
@@ -68,7 +74,6 @@ img {
   height:2px;
   border-bottom:2px solid #4D4D4D;  
 }
-
 
 #toggle {
   position: absolute;    
@@ -135,8 +140,13 @@ img {
   -ms-transform: rotate(-45deg) translate(7px, -8px);
   transform: rotate(-45deg) translate(7px, -8px);
 }
+
 #toggle.on + #menu {
-  opacity: 1;
+  display: block;
+  -webkit-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  background-color: #fff;
+  height: 100%;
 }
 
 /* menu appearance*/
@@ -150,12 +160,12 @@ img {
   font-size: 2rem;
   line-height: 4rem;    
   text-align: right;
-  background: #fff;
-  opacity: 0; 
+  height: 0; 
   transition: opacity .4s;
-  top: 3.5em;    
-  bottom: 0;
+  display: none;
+  top: 3.3em;
 }
+
 /*
 #menu:after {
   position: absolute;    
@@ -252,6 +262,10 @@ img {
   padding: 0 0;     
 }
 
+#mywork{
+  padding-bottom: 2rem; 
+}
+
 .description{
   position: absolute;
   left: 50%;
@@ -318,50 +332,26 @@ img {
   }
 }
 
-.photo-iteam{
-  width: 90%;
-  border-radius: 0.3rem;
-  text-align: center;
-  position: relative;
-  left: 5%;
-  max-width: 35em;
-  padding-bottom: 1.5rem;
-  }
-}
-
 .ac-container{
-    width: 400px;
-    height:  500px;
-    margin: 10px auto 30px auto;
+    width: 100%;
 }
 
 .ac-container label{
-   background-image: url('http://placehold.it/750x550');
    background-color:  transparent;
-   background-position: center center;
-   background-repeat: no-repeat;
-   background-size: cover;
    z-index: 20;
    display: block;
    cursor: pointer;
-   text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
    line-height: 33px;
-   width: 90%;
-   height: 200px;
+   min-height: 200px;
    border-radius: 0.3rem;
    text-align: center;
    position: relative;
-   left: 7%;
-   max-width: 35em;
-   padding-bottom: 1.5rem;
    margin: 0;
 }
 
 .ac-container input:checked + label,
 .ac-container input:checked + label:hover{
-    color: #3d7489;
-    text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
-  
+    color: #3d7489;  
 }
 
 .ac-container label:hover:after,
@@ -370,7 +360,6 @@ img {
     position: absolute;
     width: 5%;
     height: 50px;
-    right: 13px;
     top: 10px;
     background: transparent url(../images/arrow_down.png) no-repeat center center;  
    backgroung-radius: 30px;
@@ -382,9 +371,7 @@ img {
 }
 
 .ac-container article{
-    background: rgba(255, 255, 255, 0.5);
-    margin-top: -1px;
-    overflow: hidden;
+    overflow: auto;
     height: 0px;
     position: relative;
     z-index: 10;
@@ -397,34 +384,39 @@ img {
     transition: 
         height 0.5s ease-in-out, 
         box-shadow 0.1s linear;
+    min-height: 20rem;  
+    height: auto;
+    overflow: auto;
 }
 
 .ac-container article p{
-    font-style: italic;
-    color: #777;
     line-height: 23px;
-    height:  50px;
     font-size: 14px;
-    padding: 20px;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    padding: 20px 0;
+}
+
+.ac-small > .flex-img {
+  margin-bottom: 2rem;
 }
 
 .ac-small{
   width: 90%;
-  max-width: 35em;
+  height: auto;
+  overflow: auto;
   left: 8%;
   margin: 0;
   }
 
 .ac-container input:checked ~ article.ac-small{
-    height: 300px;
-}
-.ac-container input:checked ~ article.ac-medium{
-    height: 300px;
-}
-.ac-container input:checked ~ article.ac-large{
-    height: 230px;
+  height: auto;
+  min-height: 60rem;  
 }
 
-.item{
-  }
+.item {
+  padding-bottom: 2rem;
+}
+
+.section-photo {
+  padding-top: 2rem; 
+}
+
