@@ -17,6 +17,11 @@
   flex-flow: row wrap;
 }
 
+.gutter{
+ padding-left: 2%;
+ padding-right: 2%;
+}
+
 .grid-bottom {
   -webkit-align-items: flex-end;
   -ms-align-items: flex-end;

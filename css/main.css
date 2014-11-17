@@ -330,6 +330,7 @@ img {
 
 .ac-container{
     width: 100%;
+    position: relative;
 }
 
 .ac-container label{
@@ -338,11 +339,12 @@ img {
    display: block;
    cursor: pointer;
    line-height: 33px;
-   min-height: 200px;
    border-radius: 0.3rem;
    text-align: center;
    position: relative;
    margin: 0;
+    max-height: 15rem;
+    overflow: hidden;
 }
 
 .ac-container label:hover{
@@ -362,7 +364,7 @@ img {
     height: 50px;
     top: 10px;
     background: transparent url(../images/arrow_down.png) no-repeat center center;  
-   backgroung-radius: 30px;
+   background-radius: 30px;
 }
 
 
@@ -374,7 +376,7 @@ img {
     overflow: auto;
     height: 0px;
     position: relative;
-    z-index: 10;
+    z-index: 90;
     transition: 
         height 0.3s ease-in-out, 
         box-shadow 0.6s linear;
@@ -395,17 +397,17 @@ img {
     padding: 20px 0;
 }
 
+.ac-small{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  padding: 0 8%;
+  margin: 0;
+}
+
 .ac-small > .flex-img {
   margin-bottom: 2rem;
 }
-
-.ac-small{
-  width: 90%;
-  height: auto;
-  overflow: auto;
-  left: 8%;
-  margin: 0;
-  }
 
 .ac-container input:checked ~ article.ac-small{
   height: auto;
