@@ -43,11 +43,13 @@ theToggle.onclick = function() {
    return false;  
 }
 
-menu.onclick = function() {
+
+
+$('#menu a').on('click', function () {
   removeClass(theToggle, 'on');
-}
+});
 
-
+/*
 this.$el.on( 'mouseenter.hoverdir, mouseleave.hoverdir', function( event ) {
      
     var $el = $( this ),
@@ -88,3 +90,4 @@ this.$el.on( 'mouseenter.hoverdir, mouseleave.hoverdir', function( event ) {
          
 } );
 
+*/
