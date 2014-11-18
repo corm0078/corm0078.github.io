@@ -457,6 +457,13 @@ img {
  display: none;    
 }
 
+.text-contact-small{
+ display: inline-block;
+ width: 70%;
+ margin-left: 15%; 
+ padding-top: 2rem;
+}
+
 .text-contact{
  text-align: right;
  width: 30%; 
@@ -471,4 +478,15 @@ width: 55%;
 display: inline-block;
 padding-left: 37px;
 margin-top: 2.75rem;
+}
+
+@media only screen and (min-width: 28em) {
+    
+     .text-contact-small{
+      display: none;   
+    }
+    
+    .contact{
+      display: inline-block;
+    }
 }
