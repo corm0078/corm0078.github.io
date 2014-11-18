@@ -73,39 +73,48 @@ h4 {
 small, .font_small {font-size: 0.889em;}
 
 .yotta {
+    font-family: "oswald", sans-serif;
     font-size: 5.609em; 
 }
 
 .zetta {
+    font-family: "oswald", sans-serif;
     font-size: 4.208em; 
 }
 
 h1, .exa {
+  font-family: "oswald", sans-serif;
   margin-top: 0;
   font-size: 3.157em;
 }
 
 h2, .peta {
+    font-family: "oswald", sans-serif;
     font-size: 2.369em;
 }
 
 h3, .tera {
+    font-family: "oswald", sans-serif;
     font-size: 1.777em;
 }
 
 h4, .giga {
+    font-family: "oswald", sans-serif;
     font-size: 1.333em;
 }
 
 h5, .mega{
+    font-family: "oswald", sans-serif;
     font-size: 1em;
 }
 
 h6, .kilo{
+    font-family: "oswald", sans-serif;
     font-size: 0.75em;
 }
 
 h7, .milli {
+    font-family: "oswald", sans-serif;
     font-size: 0.563em;   
 }
 
