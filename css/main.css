@@ -429,11 +429,39 @@ img {
 }
 
 .contact-icon{
- position: absolute;
- width: 10%;   
+    width:  50px;
+    position: absolute;
+    float: right;
+    margin-left: 5px;
+    padding-left: 10px;
 }
 
-.contact-list-item{
-    padding-top: 3rem;
- 
+#meetme{
+    
+ width: 98%;
+ padding-left: 5%;    
+}
+
+
+.contact{
+ margin-top: 30px;
+ margin-bottom: 40px;
+ display: inline-block;
+ width: 100%    
+}
+
+.text-contact{
+ text-align: right;
+ width: 30%;    
+}
+
+.text-contact2{
+border-top: none;
+border-left: solid 1px #bcbbb5;
+padding-top: 0px;
+margin-top: 0px;
+float: right;
+width: 50%;
+padding-left: 37px;
+display: inline-block;
 }
