@@ -450,11 +450,17 @@ img {
   display: inline-block;
 }
 
+
 .contact{
+ display: none; 
+ width: 100%;    
+}
+
+.info-contact{
  margin-top: 30px;
  margin-bottom: 40px; 
  max-width: 700px; 
- display: none;    
+ text-align: center;    
 }
 
 .text-contact-small{
@@ -486,7 +492,21 @@ margin-top: 2.75rem;
       display: none;   
     }
     
+    .contact-2{
+     display: none;   
+    }
+    
     .contact{
       display: inline-block;
     }
+}
+
+ @media only screen and (min-width: 61em) {
+    
+     .info-contact{
+      margin-left: 15%;
+     }
+     
+    }
+    
 }
