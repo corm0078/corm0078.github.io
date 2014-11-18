@@ -260,7 +260,7 @@ img {
 }
 
 .contain{
-    width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding: 0 0;     
 }
@@ -274,7 +274,7 @@ img {
   padding-top: 90%; 
   width: 80%;
   max-width: 35em;
-    margin: 0 auto;
+  margin: 0 auto;
 
 }
 
@@ -490,6 +490,11 @@ text-align: left;
 }
 
 
+.photo-l{
+    text-align: center;
+     
+ }
+
 @media only screen and (min-width: 35em) {
     
      .text-contact-small{
@@ -508,16 +513,24 @@ text-align: left;
  @media only screen and (min-width: 60em) {
     
     .info-contact{
-      width: 70%;
-     float: right;    
+      width: 60%;
+      float: right;    
       margin-left: 0;
       padding-left: 0;
+      margin-right: 5%;    
     }
      
      .photo-l{
      text-align: left;
-     overflow: hidden;     
+     margin: 0;
+     padding: 0;
+     width: 25%;     
+    }
      
+    .self-photo{
+     width: 100%;
+     margin-left: 27%;
+     padding-top: 0;    
     }
     
 }
