@@ -260,10 +260,6 @@ img {
   padding: 0 0;     
 }
 
-#mywork{
-  padding-bottom: 2rem; 
-}
-
 .description{
   text-align: center;
   padding-top: 90%; 
@@ -524,7 +520,23 @@ text-align: left;
      
      .max-width{
      width: 90%;
-     margin-left: 9%;    
+     margin-left: 5%;    
     }
 
+}
+
+.social-media li{
+ text-decoration: none;
+ width: 6rem;
+ padding-left: 10%; 
+ margin-top: 1rem;
+}
+
+.social-media{
+ background-color: #848282; 
+ margin-top: 8rem;     
+}
+
+.space-after{
+ padding-bottom: 7rem;   
 }
