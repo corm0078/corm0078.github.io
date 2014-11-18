@@ -459,14 +459,15 @@ img {
 .info-contact{
  margin-top: 30px;
  margin-bottom: 40px; 
- max-width: 700px; 
- text-align: center;    
+ text-align: center; 
+ width: 90%;
+ padding-left: 5%;   
 }
 
 .text-contact-small{
  display: inline-block;
  width: 70%;
- margin-left: 15%; 
+ margin-left: 5rem; 
  padding-top: 2rem;
 }
 
@@ -482,11 +483,13 @@ border-left: solid 1px #bcbbb5;
 float: right;
 width: 55%;    
 display: inline-block;
-padding-left: 37px;
+padding-left: 39px;
+margin-left: 5rem;    
 margin-top: 2.75rem;
+text-align: left;    
 }
 
-@media only screen and (min-width: 28em) {
+@media only screen and (min-width: 35em) {
     
      .text-contact-small{
       display: none;   
@@ -503,9 +506,7 @@ margin-top: 2.75rem;
 
  @media only screen and (min-width: 61em) {
     
-     .info-contact{
-      margin-left: 15%;
-     }
+   
      
     }
     
