@@ -10,9 +10,6 @@ html {
     -ms-text-sized-adjust: 100%;
     -webkit-text-sized-adjust: 100%;
     text-sized-adjust: 100%;
-    margin: 0;
-    padding: 0;
-
 }
 
 *, *:before, *:after {
