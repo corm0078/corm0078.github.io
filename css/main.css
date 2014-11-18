@@ -555,18 +555,22 @@ text-align: left;
 
 }
 
+
 .social-media ul{
-  width: 450px;
-  padding-left: 27%;    
+ padding: 1rem;
+ text-align: center;
+ margin: 0;    
 }
 
 .social-media li{
-    width: 30%;
+    display: inline-block;
+    width: 20%;
 }
 
 .social-media{
  background-color: #848282; 
- margin-top: 7rem;     
+ margin-top: 7rem;    
+   
 }
 
 .space-after{
@@ -576,6 +580,7 @@ text-align: left;
 footer{
  background-color: #262525;
  height: 100%;
+ padding-top: 1rem;    
  color: grey;    
     
 }
