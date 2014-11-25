@@ -51,7 +51,7 @@ $('#menu a').on('click', function () {
 
 
 $(window).scroll(function(){
-      if($(window).scrollTop()>1000){
+      if($(window).scrollTop()>900){
          $(".background").fadeIn();
       }else{
          $(".background").fadeOut();
