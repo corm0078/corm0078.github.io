@@ -110,7 +110,7 @@ img {
 #toggle span:before {
   width: 100%;
   height: 5px;
-  background-color: #BE6696;
+  background-color: #F16370;
   transition: all 0.3s;
   backface-visibility: hidden;
 }
@@ -250,7 +250,7 @@ img {
 .header{  
   height: 100vh;
   width: 100%;
-  background-image: url("http://placehold.it/1150x1050");
+  background-image: url("../img/martine.jpg");
   background-color:  transparent;
   background-position: center center;
   background-repeat: no-repeat;
@@ -553,31 +553,171 @@ text-align: left;
 }
 
 
-.social-media ul{
- padding: 1rem;
- text-align: center;
+/* Social Icons */
+.ease-all{
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+}
+
+.social{
+     list-style-type: none;
+}
+
+
+.social li a,
+.social li a:link,
+.social li a:visited{
+	display: inline-block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 1rem;
+	text-align:center;
+	padding-top: 0.8125rem;
+    
+    color: #FFF;
+
+	-webkit-box-shadow: inset 0px 0px 0px 3px #FFF;
+	-moz-box-shadow: inset 0px 0px 0px 3px #FFF;
+	-ms-box-shadow: inset 0px 0px 0px 3px #FFF;
+	-o-box-shadow: inset 0px 0px 0px 3px #FFF;
+	box-shadow: inset 0px 0px 0px 3px #FFF;
+}
+
+i{
+  font-size: 1.5rem;
+}
+
+.social-contact{
+ background-color:#F16370;
+ text-align: center;    
+ padding-top: 59px;
+ padding-bottom: 59px;   
  margin: 0;    
 }
 
-.social-media li{
-    display: inline-block;
-    width: 20%;
+.social-contact ul{
+    text-align: center;
+    padding-left: 0;
 }
 
-.social-media{
- background-color: #848282; 
- margin-top: 7rem;    
-   
+.social li{
+ margin: auto 3rem;
+ margin-bottom: 1.5rem; 
+ margin-top: 1.5rem;    
+ display: inline-block;
 }
+
+.social li a:hover,
+.social li a:focus,
+.social li a:active{
+    -webkit-box-shadow: inset 0px 0px 0px 40px  #FFF;
+	-moz-box-shadow: inset 0px 0px 0px 40px  #FFF;
+	-ms-box-shadow: inset 0px 0px 0px 40px #FFF;
+	-o-box-shadow: inset 0px 0px 0px 40px #FFF;
+	box-shadow: inset 0px 0px 0px 40px  #FFF;
+    
+    color: #F16370;
+}
+
 
 .space-after{
  padding-bottom: 7rem;   
 }
 
 footer{
- background-color: #262525;
+ background-color: #3c3c3c;
  height: 100%;
- padding-top: 1rem;    
- color: grey;    
-    
+ padding-top: 1rem; 
+ color: #797979;   
 }
+
+
+.caption-style-4{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+
+	.caption-style-4 li{
+		float: left;
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.caption-style-4 li:hover .caption{
+		opacity: 1;
+	}
+
+	.caption-style-4 li:hover img{
+		opacity: 1;
+		transform: scale(1.15,1.15);
+		-webkit-transform:scale(1.15,1.15);
+		-moz-transform:scale(1.15,1.15);
+		-ms-transform:scale(1.15,1.15);
+		-o-transform:scale(1.15,1.15);
+	}
+
+
+	.caption-style-4 img{
+		margin: 0px;
+		padding: 0px;
+		float: left;
+		z-index: 4;
+	}
+
+
+	.caption-style-4 .caption{
+		cursor: pointer;
+		position: absolute;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+	}
+
+	.caption-style-4 img{
+		-webkit-transition:all 0.25s ease-in-out;
+		-moz-transition:all 0.25s ease-in-out;
+		-o-transition:all 0.25s ease-in-out;
+		-ms-transition:all 0.25s ease-in-out;
+		transition:all 0.25s ease-in-out;
+	}
+	.caption-style-4 .blur{
+		background-color: rgba(0,0,0,0.65);
+		height: 300px;
+		width: 400px;
+		z-index: 5;
+		position: absolute;
+	}
+
+	.caption-style-4 .caption-text h1{
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.caption-style-4 .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		width: 400px;
+		height: 300px;
+		text-align: center;
+		top:100px;
+	}
+
+
+    
