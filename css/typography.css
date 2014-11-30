@@ -90,7 +90,9 @@ h1, .exa {
 
 h2, .peta {
     font-family: "oswald", sans-serif;
-    font-size: 2.369em;
+    font-size: 5em;
+    font-weight: 200;
+    color: #B0E1DF;
 }
 
 h3, .tera {

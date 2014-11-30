@@ -146,7 +146,7 @@ img {
 /* menu appearance*/
 #menu {
   position: fixed;
-  color: #999;
+  color: #fff;
   font-family: 'oswald', sans-serif;
   width: 100%;
   padding: 5px;
@@ -158,6 +158,23 @@ img {
   transition: opacity .4s;
   display: none;
   top: 3.3em;
+}
+
+
+.fancy-link, 
+.fancy-link:link,
+.fancy-link:visited{
+	color: #4D4D4D;
+	text-decoration: none;
+    font-size: 1.8rem;
+	border-bottom: 0 solid #4D4D4D;
+}
+
+.fancy-link:hover,
+.fancy-link:focus,
+.fancy-link:active{
+	color: #4D4D4D;
+	border-bottom: 5px solid #B0E1DF;
 }
 
 /*
@@ -178,7 +195,7 @@ img {
   display: block;
   margin: 0;
   padding: 0;
-  color: #4D4D4D;
+  color:  #B0E1DF;
 }
 
 #menu ul{
@@ -192,7 +209,7 @@ img {
   text-decoration: none;
   transition: all .2s; 
   padding-right: 8%;
-  border-bottom: solid;     
+  border-bottom: solid #B0E1DF ;     
 }
 
 .large-nav{
@@ -213,24 +230,14 @@ img {
    font-weight: 200;  
   }
   
-  .large-nav a{
-   text-decoration: none;
-   color: #4D4D4D;  
-  }
   
   .large-nav li{ 
    display: inline-block;
    margin: 0.5rem;
    margin-left: 1.5rem;
-   font-size: 1.5rem;
    line-height: 4rem;    
   }
-  
-  .large-nav li a:hover,
-  .large-nav li a:focus {
-  color: #BE6696;
-  border-bottom: 2px solid;  
-  }
+
 }
 
 @media only screen and (min-width: 70em) {
@@ -250,7 +257,7 @@ img {
 .header{  
   height: 100vh;
   width: 100%;
-  background-image: url("../img/martine.jpg");
+  background-image: url("../img/martine2.jpg");
   background-color:  transparent;
   background-position: center center;
   background-repeat: no-repeat;
@@ -266,13 +273,18 @@ img {
 
 
 .arrow{
- width: 80%;
+ width: 40%;
+ padding-right: 19%;
  height:  100vh;   
+}
+
+.goodbye img{
+ width: 10%;   
 }
 
 .section{
  text-align: center;
- font-size: 2rem; 
+ font-size: 3rem; 
  padding-top: 7rem;
 }
 
@@ -533,21 +545,16 @@ text-align: left;
     .ac-container article {
         width: 300%;
     }
-    /* 
+     
     .ac-container .item:nth-child(4n+4) {
         xmargin-left: 0;
-        border: 1px solid red;
-        opacity: 0.2;
     }
-     */
     .ac-container .item:nth-child(2n+3) {
         xmargin-left: -100%;
-        opacity: 0.5;
     }
      
     .ac-container .item:nth-child(3n+3) {
         xmargin-left: -200%;
-        opacity: 0.9;
     }
 
 }
@@ -659,4 +666,16 @@ footer{
 		-ms-transition:all 0.25s ease-in-out;
 		transition:all 0.25s ease-in-out;
 	}
+
+.goodbye h2{
+  color: #b54953;
+ margin-top: 0;    
+}
+
+.goodbye p{
+ font-size: 1.2rem;
+ width:  85%;
+ padding-left: 15%;
+ color: #b54953;    
+}
     
