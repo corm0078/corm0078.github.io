@@ -578,6 +578,7 @@ text-align: left;
 
 .social{
      list-style-type: none;
+     font-size: 1.8rem;
 }
 
 
@@ -586,11 +587,16 @@ text-align: left;
 .social li a:visited{
 	display: inline-block;
 	float: left;
-	width: 50px;
-	height: 50px;
-	margin-right: 1rem;
+	width: 60px;
+	height: 60px;
 	text-align:center;
-	padding-top: 0.8125rem;
+	padding-top: 0.5rem;
+        
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
     
     color: #FFF;
 
@@ -619,15 +625,15 @@ i{
 }
 
 .social li{
- margin: auto 3rem;
- margin-bottom: 1.5rem; 
- margin-top: 1.5rem;    
+ margin: auto 1rem;
+ margin-bottom: 1.5rem;     
  display: inline-block;
 }
 
 .social li a:hover,
 .social li a:focus,
 .social li a:active{
+
     -webkit-box-shadow: inset 0px 0px 0px 40px  #FFF;
 	-moz-box-shadow: inset 0px 0px 0px 40px  #FFF;
 	-ms-box-shadow: inset 0px 0px 0px 40px #FFF;
