@@ -279,13 +279,28 @@ img {
 }
 
 .goodbye img{
- width: 10%;   
+ width: 2rem;    
+}
+
+.header img{
+ padding-top: 0.8rem;    
+ width: 2rem;   
 }
 
 .section{
  text-align: center;
  font-size: 3rem; 
  padding-top: 7rem;
+}
+
+.ac-small img{
+    margin: 0;
+}
+
+.sub{
+ max-width: 85%;
+ padding-left: 15%;
+ padding-bottom: 1rem;
 }
 
 @media only screen and (min-width: 23em) {
@@ -396,24 +411,41 @@ img {
 .ac-container article p{
     line-height: 23px;
     font-size: 14px;
-    padding: 20px 0;
+    padding: 20px 2rem;
+    font-kerning: normal;
+}
+
+.ac-container article h3{
+ text-align: center;   
 }
 
 .ac-small{
   width: 100%;
   height: auto;
   overflow: auto;
-  padding: 0 8%;
-  margin: 0;
+  margin: 0;    
 }
 
-.ac-small > .flex-img {
-  margin-bottom: 2rem;
-}
 
 .ac-container input:checked ~ article.ac-small{
   height: auto;
   min-height: 60rem;  
+}
+
+@media only screen and (min-width: 41em) {
+ 
+ .ac-small{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0;    
+}   
+    
+.inside{
+  width: 50%;   
+} 
+    
+    
 }
 
 .section-photo {
@@ -491,7 +523,7 @@ text-align: left;
      
  }
 
-@media only screen and (min-width: 41em) {
+@media only screen and (min-width: 38em) {
     
      .text-contact-small{
       display: none;   
@@ -645,7 +677,7 @@ i{
 
 
 .space-after{
- padding-bottom: 7rem;   
+ padding-bottom: 7rem;
 }
 
 footer{
@@ -675,7 +707,18 @@ footer{
 
 .goodbye h2{
   color: #b54953;
- margin-top: 0;    
+  margin-top: 0;    
+}
+
+.up{
+ padding-left: 50%;    
+ 
+}
+
+.up img{ 
+ width: 2rem;    
+ padding-bottom: 5%; 
+ text-align: center;    
 }
 
 .goodbye p{
