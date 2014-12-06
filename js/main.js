@@ -58,3 +58,12 @@ $(window).scroll(function(){
       }
 
 });
+
+
+$('.close').on('click', function () {
+$(this)
+.parents('.ac-small')
+.siblings('input[type="checkbox"]')
+.attr('checked', false)
+;
+});
