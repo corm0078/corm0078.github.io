@@ -55,7 +55,7 @@ img {
  position: fixed;
  width: 100%;    
  height: 7rem; 
- z-index: 1000;
+ z-index: 5000;
 }
 
 .logo{
@@ -742,29 +742,54 @@ footer{
 .overlay {
 	position: fixed;
 	width: 100%;
-	height: 100%;
+	height: 60rem;
 	top: 0;
     z-index: 1000;
 	left: 0;
-	background:rgba(255, 255, 255, 0.93);
+	background:rgba(255, 255, 255, 0.96);
     overflow: auto;
     padding: 1rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.overlay h2{
+  margin-top: 2rem;   
 }
 
 /* Overlay closing cross */
 .overlay .overlay-close {
-	width: 80px;
-	height: 80px;
-	position: absolute;
-	right: 20px;
-	top: 20px;
+	width: 40px;
+	height: 40px;
+    padding-bottom: 1rem;
+    position: fixed;
 	overflow: hidden;
 	border: none;
-	background: url(../img/cross.png) no-repeat center center;
+	background: url(../img/arrow-down.svg) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	outline: none;
 }
+
+.stay{
+ padding-top: 3rem;
+ position: fixed;
+ padding-left: 10%;    
+ text-align: center;     
+}
+
+.i-section{
+ margin-top: 10rem;
+ height: 70rem;    
+}
+
+.overlay-img{
+    width: 80%;
+   overflow: hidden;
+    padding-top: 2rem;
+    
+}
+
 
 /* Effects */
 .overlay-scale {
@@ -783,16 +808,6 @@ footer{
 	transform: scale(1);	
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
 	transition: transform 0.4s, opacity 0.4s;
-}
-
-@media screen and (max-height: 30.5em) {
-	.overlay nav {
-		height: 70%;
-		font-size: 34px;
-	}
-	.overlay ul li {
-		min-height: 34px;
-	}
 }
 
 @media screen and (max-width: 25em) {
