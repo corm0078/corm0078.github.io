@@ -59,10 +59,15 @@ img {
 }
 
 .logo{
+   background: url(../img/b-rlogo.svg) no-repeat center center;
    position: absolute;
    width: 7rem; 
-   height: auto;
+   height: 100%;
    top: -0.02rem;    
+}
+
+.second-logo{
+  background: url(../img/b-rlogo.svg) no-repeat center center;   
 }
 .line-seperator{
   height:2px;
