@@ -59,16 +59,12 @@ img {
 }
 
 .logo{
-   background: url(../img/b-rlogo.svg) no-repeat center center;
    position: absolute;
    width: 7rem; 
    height: 100%;
    top: -0.02rem;    
 }
 
-.second-logo{
-  background: url(../img/b-rlogo.svg) no-repeat center center;   
-}
 .line-seperator{
   height:2px;
   border-bottom:2px solid #4D4D4D;  
@@ -78,6 +74,7 @@ img {
   position: absolute;    
   display: block;
   width: 28px;
+  padding-top: 1.5rem;    
   height: 30px;
   margin: 30px 80% 5%;   
 }
@@ -250,11 +247,11 @@ img {
 
 @media only screen and (min-width: 70em) {
   .stop{
-    width: 90%;
+    max-width: 90%;
   }
   
   .stop-logo{
-   left: 10%;    
+   padding-left: 10%;    
   }
 }
 
