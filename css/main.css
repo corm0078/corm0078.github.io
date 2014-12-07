@@ -61,7 +61,7 @@ img {
 .logo{
    position: absolute;
    width: 7rem; 
-    height: auto;
+   height: auto;
    top: -0.02rem;    
 }
 .line-seperator{
