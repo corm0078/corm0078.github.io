@@ -729,67 +729,62 @@ footer{
  color: #b54953;    
 }
 
-
-
-
-
-
-
-
 /* Overlay style */
 
 
 .overlay {
 	position: fixed;
 	width: 100%;
-	height: 60rem;
+	height: 100%;
 	top: 0;
     z-index: 1000;
 	left: 0;
-	background:rgba(255, 255, 255, 0.96);
+	background:rgba(255, 255, 255, 0.95);
     overflow: auto;
     padding: 1rem;
-    padding-top: 5rem;
+    padding-top: 6.5rem;
     text-align: center;
 }
 
-.overlay h2{
-  margin-top: 2rem;   
+.stay{
+ position: relative;    
+ text-align: center;
+ max-width: 60rem;    
 }
+
+.stay h2{
+ margin-top: 0;   
+}
+
 
 /* Overlay closing cross */
 .overlay .overlay-close {
-	width: 40px;
-	height: 40px;
-    padding-bottom: 1rem;
-    position: fixed;
+	width: 20%;
+	height: 10%;
+    padding-top: 0;
+    margin: 0;
+    position: relative;
 	overflow: hidden;
 	border: none;
-	background: url(../img/arrow-down.svg) no-repeat center center;
+	background: url(../img/x.png) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	outline: none;
 }
 
-.stay{
- padding-top: 3rem;
+.i-section{    
+ text-align: center;   
+ height: 100%;
+ padding-right: 5%;
  position: fixed;
- padding-left: 10%;    
- text-align: center;     
-}
-
-.i-section{
- margin-top: 10rem;
- height: 70rem;    
-}
-
-.overlay-img{
-    width: 80%;
-   overflow: hidden;
-    padding-top: 2rem;
+ overflow: scroll;
+ max-width: 60rem;    
     
 }
 
+.i-section img{
+    
+}
 
 /* Effects */
 .overlay-scale {
@@ -815,5 +810,6 @@ footer{
 		display: none;
 	}
 }
+
 
 
