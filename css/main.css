@@ -737,7 +737,7 @@ footer{
 	background:rgba(255, 255, 255, 0.95);
     overflow: auto;
     padding: 1rem;
-    padding-top: 6rem;
+    padding-top: 6.3rem;
     text-align: center;
 }
 
@@ -773,7 +773,8 @@ footer{
   font-size: 2rem;    
 }
 
-.i-section{    
+.i-section{  
+   
  text-align: center;   
  height: 100%;
  padding-right: 5%;
