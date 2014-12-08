@@ -221,6 +221,26 @@ img {
  display: none; 
 }
 
+.photo{  
+  height: 15rem;
+  width: 100%;
+  background-color:  transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  margin-top: 2rem; 
+}
+
+.photo1{
+  background-image: url("../img/keyboard.jpg");
+}
+
+.photo2{
+  background-image: url("../img/glasses.jpg");   
+}
+    
+    
+
 @media only screen and (min-width: 45em) {
   
   .small-nav{
@@ -242,6 +262,10 @@ img {
    margin-left: 1.5rem;
    line-height: 4rem;    
   }
+    
+.photo{  
+  height: 30rem;
+}    
 
 }
 
@@ -253,6 +277,11 @@ img {
   .stop-logo{
    padding-left: 10%;    
   }
+    
+        
+ .photo{  
+  height: 27rem;
+ } 
 }
 
 .center{
@@ -277,7 +306,9 @@ img {
 }
 
 .goodbye img{
- width: 2rem;    
+ width: 2rem;
+ padding-top: 2rem;
+ padding-bottom: 2rem;    
 }
 
 .contain img{ 
@@ -445,10 +476,6 @@ img {
     
 }
 
-.section-photo {
-  padding-top: 2rem; 
-}
-
 .icon{
  width: 30%;
  text-align: center;
@@ -489,7 +516,7 @@ img {
 }
 
 .text-contact-small i{
-color: #F16370;
+color: #4D4D4D;
 }
 
 .text-contact{
@@ -505,7 +532,7 @@ color: #F16370;
 .text-contact2{
 border-top: none;  
 display: inline-block;    
-margin-top: 7rem;
+margin-top: 20%;
 text-align: left;     
 }
 
@@ -517,14 +544,14 @@ text-align: left;
 
 .text-contact2 i{
  font-size: 3rem; 
- color: #F16370;    
+ color: #4D4D4D;    
  margin-right: 2rem;   
 }
 
 .photo-l{
     text-align: center;
     width: 40%;
-    padding-top: 1rem;
+    padding-top: 2%;
      
  }
 
@@ -555,14 +582,14 @@ text-align: left;
 	color: #4D4D4D;
 	text-decoration: none;
     font-size: 1.8rem;
-	border-bottom: 0 solid #F16370;
+	border-bottom: 0 solid #4D4D4D;
 }
 
 .fancy-link2:hover,
 .fancy-link2:focus,
 .fancy-link2:active{
 	color: #4D4D4D;
-	border-bottom: 5px solid #F16370;
+	border-bottom: 5px solid #B0E1DF;
 }
 
 
@@ -656,31 +683,9 @@ text-align: left;
      font-size: 1.8rem;
 }
 
+.social
 
-.social li a,
-.social li a:link,
-.social li a:visited{
-	display: inline-block;
-	float: left;
-	width: 60px;
-	height: 60px;
-	text-align:center;
-	padding-top: 0.5rem;
-        
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-    
-    color: #FFF;
 
-	-webkit-box-shadow: inset 0px 0px 0px 3px #FFF;
-	-moz-box-shadow: inset 0px 0px 0px 3px #FFF;
-	-ms-box-shadow: inset 0px 0px 0px 3px #FFF;
-	-o-box-shadow: inset 0px 0px 0px 3px #FFF;
-	box-shadow: inset 0px 0px 0px 3px #FFF;
-}
 
 i{
   font-size: 1.5rem;
@@ -689,9 +694,7 @@ i{
 .social-contact{
  background-color:#F16370;
  text-align: center;    
- padding-top: 59px;
- padding-bottom: 59px;   
- margin: 0;    
+ padding-top: 110px;  
 }
 
 .social-contact ul{
@@ -705,21 +708,10 @@ i{
  display: inline-block;
 }
 
-.social li a:hover,
-.social li a:focus,
-.social li a:active{
 
-    -webkit-box-shadow: inset 0px 0px 0px 40px  #FFF;
-	-moz-box-shadow: inset 0px 0px 0px 40px  #FFF;
-	-ms-box-shadow: inset 0px 0px 0px 40px #FFF;
-	-o-box-shadow: inset 0px 0px 0px 40px #FFF;
-	box-shadow: inset 0px 0px 0px 40px  #FFF;
-    
-    color: #F16370;
-}
 
 .space-after{
- padding-bottom: 7rem;
+ padding-bottom: 4rem;
 }
 
 footer{
@@ -763,7 +755,7 @@ footer{
 }
 
 .goodbye p{
- font-size: 1.2rem;
+ font-size: 1.5rem;
  width:  85%;
  padding-left: 15%;
  color: #b54953;    
@@ -813,8 +805,12 @@ footer{
 }
 
 .social-med{
-  padding-top: 5rem; 
+  padding-top: 2rem;
+  width: 70%;
+  margin-left: 15%;    
 }
+
+
 
 
 /* Overlay closing cross */
