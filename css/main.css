@@ -492,10 +492,9 @@ img {
 color: #F16370;
 }
 
-
 .text-contact{
  text-align: right;
- width: 30%; 
+ width: 30%;     
  display: inline-block;
 }
 
@@ -518,6 +517,7 @@ text-align: left;
 
 .text-contact2 i{
  font-size: 3rem; 
+ color: #F16370;    
  margin-right: 2rem;   
 }
 
@@ -795,6 +795,25 @@ footer{
 .stay h2{
  margin-top: 0;
  padding-bottom: 1rem;    
+}
+
+
+.fancy-link3, 
+.fancy-link3:link,
+.fancy-link3:visited{
+	color: #b54953;
+	text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.fancy-link3:hover,
+.fancy-link3:focus,
+.fancy-link3:active{
+	color: #fff;
+}
+
+.social-med{
+  padding-top: 5rem; 
 }
 
 
