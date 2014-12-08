@@ -239,7 +239,13 @@ img {
   background-image: url("../img/glasses.jpg");   
 }
     
-    
+   
+
+/*slider*/
+
+
+
+
 
 @media only screen and (min-width: 45em) {
   
@@ -321,9 +327,6 @@ img {
  padding-top: 7rem;
 }
 
-.ac-small img{
-    margin: 0;
-}
 
 .sub{
  max-width: 85%;
@@ -374,6 +377,13 @@ img {
 
 
 @media only screen and (min-width: 41em) {
+ 
+ .ac-small{
+  width: 100%;
+  height: auto;
+  overflow: auto;
+  margin: 0;    
+}   
     
 .inside{
   width: 50%;   
@@ -498,20 +508,7 @@ text-align: left;
 	border-bottom: 5px solid #B0E1DF;
 }
 
-.flexslider {margin: 0; padding: 0;}
-.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {width: 100%; display: block;}
-.flex-pauseplay span {text-transform: capitalize;}
 
-/* Clearfix for the .slides element */
-.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
-html[xmlns] .slides {display: block;}
-* html .slides {height: 1%;}
-
-/* No JavaScript Fallback */
-/* If you are not using another script, such as Modernizr, make sure you
- * include js that eliminates this class on page load */
-.no-js .slides > li:first-child {display: block;}
 
 
 @media only screen and (min-width: 38em) {
@@ -552,7 +549,6 @@ html[xmlns] .slides {display: block;}
      width: 90%;
      margin-left: 5%;    
     }
-
 }
 
 
@@ -630,7 +626,7 @@ footer{
 		-o-transform:scale(1.15,1.15);
 	}
 
-	.caption-style-4 img{
+.caption-style-4 img{
 		-webkit-transition:all 0.25s ease-in-out;
 		-moz-transition:all 0.25s ease-in-out;
 		-o-transition:all 0.25s ease-in-out;
@@ -773,6 +769,105 @@ footer{
 		display: none;
 	}
 }
+
+.cbp-fwslider {
+	position: relative;
+	margin: 0 0 10px;
+	overflow: hidden;
+	padding: 40px 0 60px;
+}
+
+.cbp-fwslider ul {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	list-style-type: none;
+}
+
+.cbp-fwslider ul li {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	transform: translateZ(0);
+	float: left;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+	display: block;
+	text-align: center;
+	outline: none;
+}
+
+.cbp-fwslider ul li > a img {
+	border: none;
+	display: block;
+	margin: 0 auto;
+	max-width: 75%;
+}
+
+.cbp-fwslider nav span {
+	position: absolute;
+	top: 50%;
+	width: 50px;
+	height: 100px;
+	background: #47a3da;
+	color: #fff;
+	font-size: 50px;
+	text-align: center;
+	margin-top: -50px;
+	line-height: 100px;
+	cursor: pointer;
+	font-weight: normal;
+}
+
+.cbp-fwslider nav span:hover {
+	background: #378fc3;
+}
+
+.cbp-fwslider nav span.cbp-fwnext {
+	right: 0px;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+	left: 0px;
+}
+
+.cbp-fwdots {
+	position: absolute;
+	bottom: 0px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
+}
+
+.cbp-fwdots span {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: #ddd;
+	margin: 4px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.cbp-fwdots span:hover {
+	background: #999;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+	background: #47a3da;
+	box-shadow: 0 0 0 2px #47a3da;
+	-webkit-transition: box-shadow 0.2s ease-in-out;
+	-moz-transition: box-shadow 0.2s ease-in-out;
+	transition: box-shadow 0.2s ease-in-out;
+}
+
+
+
+
 
 
 

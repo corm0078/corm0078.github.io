@@ -271,26 +271,23 @@
               <button type="button" class="overlay-close"></button>      
             <div class="stay">     
                  <h2>Young Jane</h2>
-                <h4>Brand Redesign</h4>
             </div>
             <div class="i-section">    
-                	<div class="flexslider">
-                       <ul class="slides">
+                <p>intro to the project the solution paragraph here.</p>  
+                	<div id="cbp-fwslider" class="cbp-fwslider">
+                         <ul class="slides">
                          <li>
-                             <img src="http://placekitten.com/g/900/400" alt="A cute kitten">
+                         <img src="http://placekitten.com/g/900/900" alt="A cute kitten">
                         </li>
                         <li>
-                            <a href="http://placekitten.com">
-                                <img src="http://placekitten.com/g/900/350" alt="A cute" >
-                            </a>
+                        <img src="http://placekitten.com/g/900/900" alt="A cute" >
                          </li>
                          <li>
-                                <img src="http://placekitten.com/g/900/398" alt="A  kitten">
+                        <img src="http://placekitten.com/g/900/900" alt="A  kitten">
 
                         </li>
-                      </ul>
-                          <p>intro to the project the solution paragraph here.</p>  
-			       </div>
+                        </ul>
+                    </div>
             </div> 
             </div>
       </div>
@@ -410,6 +407,28 @@
 <script>window.jQuery || document.write("<script src='js/jquery-1.10.2.min.js'>\x3C/script>")</script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/3.0.4/jquery.imagesloaded.min.js"></script>
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpFWSlider.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpFWSlider( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 500,
+					// default transition easing
+					easing : 'ease'
+				}
+				- destroy:
+				$( selector ).cbpFWSlider( 'destroy' );
+				*/
+
+				$( '#cbp-fwslider' ).cbpFWSlider();
+
+			} );
+		</script>
 <script>
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
@@ -428,6 +447,7 @@
 </script>
  <script src="js/modernizr.custom.js"></script>    
 <script src="js/waypoints.min.js"></script>    
-<script src="js/main.js"></script> 	    
+<script src="js/main.js"></script>
+
 </body>    
 </html>
