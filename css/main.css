@@ -485,9 +485,13 @@ img {
 .text-contact-small{
  display: inline-block;
  width: 70%;    
- margin-left: 15%; 
  padding-top: 2rem;
 }
+
+.text-contact-small i{
+color: #F16370;
+}
+
 
 .text-contact{
  text-align: right;
@@ -495,15 +499,27 @@ img {
  display: inline-block;
 }
 
-.text-contact2{
-border-top: none;
-float: right;   
-display: inline-block;
-padding-left: 39px;    
-margin-top: 7rem;
-text-align: left;    
+.text-contact2 p{
+ max-width: 30rem;
 }
 
+.text-contact2{
+border-top: none;  
+display: inline-block;    
+margin-top: 7rem;
+text-align: left;     
+}
+
+.text-contact2 h4{
+ font-size: 1rem;
+ font-weight: 100;
+ padding-top: 1rem;    
+}
+
+.text-contact2 i{
+ font-size: 3rem; 
+ margin-right: 2rem;   
+}
 
 .photo-l{
     text-align: center;
@@ -514,7 +530,6 @@ text-align: left;
 
 .contact h3,
 .contact-2 h3{
-    color: #B0E1DF;
     font-size: 1.8rem;
     font-weight: 100;
     margin-top: 0;  
@@ -524,9 +539,32 @@ text-align: left;
   font-size: 3rem;   
 }
 
+
 .contact-2 h4{
- margin-top: 0;   
+  margin-top: 0; 
+  font-size: 1rem;
+  font-weight: 100;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
+
+
+.fancy-link2, 
+.fancy-link2:link,
+.fancy-link2:visited{
+	color: #4D4D4D;
+	text-decoration: none;
+    font-size: 1.8rem;
+	border-bottom: 0 solid #F16370;
+}
+
+.fancy-link2:hover,
+.fancy-link2:focus,
+.fancy-link2:active{
+	color: #4D4D4D;
+	border-bottom: 5px solid #F16370;
+}
+
 
 @media only screen and (min-width: 38em) {
     
@@ -594,12 +632,7 @@ text-align: left;
 
 }
 
-.contact-2 h4{
-  font-size: 1.5rem;
-  font-weight: 100;
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-}
+
 
 
 /* Social Icons */
