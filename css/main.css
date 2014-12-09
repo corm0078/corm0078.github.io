@@ -307,7 +307,6 @@ img {
   background-size: cover;
 }
 
-
 .arrow{
  width: 40%;
  padding-right: 19%;
@@ -702,6 +701,33 @@ footer{
 	color: #fff;
 }
 
+
+.fancy-link4, 
+.fancy-link4:link,
+.fancy-link4:visited{
+	color: #F16370;
+	text-decoration: none;
+}
+
+.fancy-link4, ul{
+ list-style-type: none;   
+}
+
+.fancy-link4, a{
+ border: solid 4px #F16370;
+ padding: 1rem;    
+}
+
+.facy-link, li{
+ padding-top: 5rem;    
+}
+
+.fancy-link4:hover,
+.fancy-link4:focus,
+.fancy-link4:active{
+	color: rgb(137, 133, 118);
+}
+
 .social-med{
   padding-top: 2rem;
   width: 70%;
@@ -887,4 +913,11 @@ footer{
     .overlay-text{
        max-width: 50rem;
     }
+}
+
+.pagefour{
+    padding-top: 15rem;
+    width: 90%;
+    padding-left: 5%;
+    font-size: 1rem;
 }
