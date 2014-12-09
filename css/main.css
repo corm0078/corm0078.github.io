@@ -709,16 +709,16 @@ footer{
 	text-decoration: none;
 }
 
-.fancy-link4, ul{
+.fancy-link4 ul{
  list-style-type: none;   
 }
 
-.fancy-link4, a{
+.fancy-link4 a{
  border: solid 4px #F16370;
  padding: 1rem;    
 }
 
-.facy-link, li{
+.facy-link a{
  padding-top: 5rem;    
 }
 
