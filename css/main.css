@@ -671,7 +671,7 @@ footer{
 	background:rgba(255, 255, 255, 0.95);
     overflow: auto;
     padding: 1rem;
-    padding-top: 6.3rem;
+    padding-top: 7rem;
     text-align: center;
 }
 
@@ -731,7 +731,7 @@ footer{
 }
 
 .i-section{  
- margin-top: -3rem;    
+ margin-top: -1rem;    
  max-width: 30rem; 
  padding-bottom: -3rem;    
 }
