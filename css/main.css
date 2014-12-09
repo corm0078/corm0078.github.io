@@ -241,10 +241,10 @@ img {
     
    
 
-/*slider*/
+.overlay-text{
 
-
-
+    overflow: scroll;
+}
 
 
 @media only screen and (min-width: 45em) {
@@ -731,24 +731,17 @@ footer{
 }
 
 .i-section{  
-   
- text-align: center;   
- height: 100%;
- padding-right: 5%;
- position: fixed;
- overflow: scroll;
- max-width: 60rem;    
-    
+ margin-top: -3rem;    
+ max-width: 30rem; 
+ padding-bottom: -3rem;    
 }
 
-.i-section img{
-    
-}
 
 /* Effects */
 .overlay-scale {
 	visibility: hidden;
 	opacity: 0;
+    height: 100%;
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
 	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
@@ -758,6 +751,7 @@ footer{
 .overlay-scale.open {
 	visibility: visible;
 	opacity: 1;
+    height: 100%;
 	-webkit-transform: scale(1);
 	transform: scale(1);	
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
@@ -770,11 +764,15 @@ footer{
 	}
 }
 
+.slides{
+ position: absolute;   
+}
+
 .cbp-fwslider {
 	position: relative;
-	margin: 0 0 10px;
+	margin: 0;
 	overflow: hidden;
-	padding: 40px 0 60px;
+	padding: 40px 0 0 0;
 }
 
 .cbp-fwslider ul {
@@ -796,48 +794,29 @@ footer{
 
 .cbp-fwslider ul li > a,
 .cbp-fwslider ul li > div {
-	display: block;
-	text-align: center;
-	outline: none;
+
 }
 
 .cbp-fwslider ul li > a img {
-	border: none;
-	display: block;
-	margin: 0 auto;
-	max-width: 75%;
+
 }
 
 .cbp-fwslider nav span {
 	position: absolute;
 	top: 50%;
-	width: 50px;
-	height: 100px;
-	background: #47a3da;
 	color: #fff;
 	font-size: 50px;
 	text-align: center;
 	margin-top: -50px;
 	line-height: 100px;
-	cursor: pointer;
 	font-weight: normal;
 }
 
-.cbp-fwslider nav span:hover {
-	background: #378fc3;
-}
 
-.cbp-fwslider nav span.cbp-fwnext {
-	right: 0px;
-}
-
-.cbp-fwslider nav span.cbp-fwprev {
-	left: 0px;
-}
 
 .cbp-fwdots {
 	position: absolute;
-	bottom: 0px;
+	bottom: 7px;
 	white-space: nowrap;
 	text-align: center;
 	width: 100%;
@@ -847,25 +826,27 @@ footer{
 	display: inline-block;
 	width: 18px;
 	height: 18px;
-	background: #ddd;
-	margin: 4px;
+	background: white;
+	margin: 8px;
 	border-radius: 50%;
 	cursor: pointer;
 }
 
-.cbp-fwdots span:hover {
-	background: #999;
-}
-
 .cbp-fwdots span.cbp-fwcurrent {
-	background: #47a3da;
-	box-shadow: 0 0 0 2px #47a3da;
+	background: #F16370;
+	box-shadow: 0 0 0 2px #F16370;
 	-webkit-transition: box-shadow 0.2s ease-in-out;
 	-moz-transition: box-shadow 0.2s ease-in-out;
 	transition: box-shadow 0.2s ease-in-out;
 }
 
+.cbp-fwprev{
+ display: none;   
+}
 
+.cbp-fwnext{
+ display: none;   
+}
 
 
 
