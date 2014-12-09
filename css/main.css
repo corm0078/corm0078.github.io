@@ -713,14 +713,13 @@ footer{
  list-style-type: none;   
 }
 
-.fancy-link4 a{
+.fancy-link4,
+.fancy-link4:link,
+.fancy-link4:visited{
  border: solid 4px #F16370;
- padding: 1rem;    
+ padding: 2%;    
 }
 
-.facy-link a{
- padding-top: 5rem;    
-}
 
 .fancy-link4:hover,
 .fancy-link4:focus,
@@ -920,4 +919,12 @@ footer{
     width: 90%;
     padding-left: 5%;
     font-size: 1rem;
+}
+
+.pagefour li{
+  padding-top: 5rem;    
+}
+
+.pagefour ul{
+ list-style-type: none;
 }
