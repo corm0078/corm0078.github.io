@@ -675,6 +675,9 @@ footer{
     text-align: center;
 }
 
+#trigger-overlay{
+ width: 100px;   
+}
 .stay{
  position: relative;    
  text-align: center;
@@ -732,7 +735,7 @@ footer{
 
 .i-section{  
  margin-top: -1rem;    
- max-width: 30rem; 
+ max-width: 20rem; 
  padding-bottom: -3rem;    
 }
 
