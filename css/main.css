@@ -514,8 +514,8 @@ h3 a{
 /* mobile chat */
 
 .chat{
-	margin: 32px 32px 32px 32px;
-	padding: 40px 40px 40px 40px;
+	margin: 32px 32px 0px 32px;
+	padding: 80px;
 	background-color: #FAEEE2;
 	text-align: center;
 }
@@ -538,7 +538,7 @@ h3 a{
 	text-align: center;
 	float: none;
 	left: 50%
-	padding-top
+	margin-top: 16px;
 }
 
 .chat ul{
