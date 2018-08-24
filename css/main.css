@@ -210,6 +210,21 @@ h3 a{
 	color: #2A51E0;
 }
 
+.chat h3 a{
+	color: black;
+}
+
+.chat h3 a:hover {
+	color: #2A51E0;
+}
+
+
+.chat h3{
+	margin-top: 16px;
+}
+
+
+
 .self-img{
 	background-color: #FAEEE2;
 	margin-left: 32px;
@@ -552,6 +567,11 @@ h3 a{
 	font-size: 24px;
 	text-align: center;
 }
+
+.chat .social-footer li a:hover i{
+	color: #2A51E0;
+}
+
 
 
 /* desktop chat*/
