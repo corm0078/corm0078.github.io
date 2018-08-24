@@ -254,6 +254,7 @@ h3 a{
 
 /* desktop intro/image */
 
+
 @media only screen and (min-width: 840px) {
 
 	nav{
@@ -271,6 +272,7 @@ h3 a{
 
 	.content-text{
 		height: 440px;
+		width: 440px;
 		display: table-cell;
 		vertical-align: middle;
 	}
@@ -295,6 +297,13 @@ h3 a{
 		max-height: 440px;
 	}
 }
+
+@media only screen and (min-width: 1150px) {
+.content-text{
+		width: 840px;
+	}
+
+	}
 
 /* mobile work */
 
