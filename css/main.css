@@ -685,11 +685,10 @@ h3 a{
 	}
 
    .chat{
-	margin: 0px;
+	margin: 0px 32px;
 }
 }
     
-}
 
 
 /* desktop chat*/
@@ -700,7 +699,7 @@ h3 a{
 		position: relative;
 		margin-top: 548px;
         padding: 80px;
-		margin: 0px 32px;
+		margin: 0px;
 	}
 
 	.chat ul{
