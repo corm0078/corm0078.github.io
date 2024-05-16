@@ -345,7 +345,7 @@ h3 a{
         padding-left: 120px;
 		align-items: center;
 		justify-content: center;
-	    height: 20vh;
+	    height: 120%;
 		max-width: 640px;
 		align-self: center;
 	}
@@ -617,7 +617,7 @@ h3 a{
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 300px; 
+   min-height: 300px; 
    padding:32px;    
 }
 
