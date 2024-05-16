@@ -685,7 +685,7 @@ h3 a{
 	}
 
    .chat{
-	margin: 0px 32px;
+	margin: 0px 32px !important;
 }
 }
     
