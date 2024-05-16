@@ -596,6 +596,9 @@ h3 a{
 	.about{
 		margin-top: 62px;
 	}
+	.about{
+		padding: 0px;
+	}
 
 }
 
@@ -677,7 +680,11 @@ h3 a{
 @media only screen and (min-width: 440px){
     
     .chat-option2{
-   height: auto; 
+   height: auto;
+	}
+   .chat{
+	margin: 0px;
+}
 }
     
 }
