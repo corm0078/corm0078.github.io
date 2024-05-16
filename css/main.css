@@ -597,7 +597,7 @@ h3 a{
 		margin-top: 62px;
 	}
 	.about{
-		padding: 0px;
+		padding: 32px 32px 0px 32px;
 	}
 
 }
@@ -608,7 +608,7 @@ h3 a{
 /* mobile chat */
 
 .chat{
-	margin: 0px 32px;
+	margin: 0px;
     padding: 48px;
 	background-color: #f8f8f8;
 	text-align: center;
@@ -700,6 +700,7 @@ h3 a{
 		position: relative;
 		margin-top: 548px;
         padding: 80px;
+		margin: 0px 32px;
 	}
 
 	.chat ul{
